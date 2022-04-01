@@ -1,0 +1,54 @@
+:root {
+    --color-1: #ab4fb4;
+    --color-transicion: #c561e7;
+    --transicion-tiempo: 600ms;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav {
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(79, 107, 96);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: var(--transicion-tiempo);
+}
+
+a:hover {
+    color: var(--color-transicion);
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+h3,
+p {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+h3 {
+    padding-top: 30px;
+}
+
+.bloque {
+    display: flex;
+    flex-direction: column;
+}
